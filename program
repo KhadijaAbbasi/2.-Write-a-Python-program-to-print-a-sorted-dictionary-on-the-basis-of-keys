@@ -1,0 +1,5 @@
+dict1 = {'red':'#FF0000','green':'#008000','black':'#000000','white':'#FFFFFF'}
+dict2={}
+for key,val in sorted(dict1.items()):
+    dict2.update({key:val})
+print(dict2)
